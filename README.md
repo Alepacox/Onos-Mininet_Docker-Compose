@@ -14,6 +14,6 @@ Then, if you wish to create a random topology**, run in another term window:
 > docker exec -it mininet-c python topology.py
 
 I also provided a START.sh script that asks directily if you want to create a new topology** while starting the containers.
-(the script refers to gnome terminal: if you don't have it, just replace it with the one the you use)  
+(the script refers to gnome terminal: if you don't have it, just replace it with the one that you use)  
 
 ** **This requires that the following app are enabled at the Onos controller (disabled by default): OpenFlow Agent, OpenFlow Base Provider and OpenFlow Provider Suite** 
