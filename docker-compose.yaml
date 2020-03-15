@@ -1,0 +1,40 @@
+version: "3.7"
+
+services:
+  onos:
+    container_name: onos-c
+    networks:
+      mynet:
+        ipv4_address: 10.5.0.2
+    image: onosproject/onos
+    ports:
+      - 80:80
+      - 8181:8181 
+      - 8101:8101 
+      - 5005:5005 
+      - 830:830
+      - 6653:6653
+
+  mininet:
+    container_name: mininet-c
+    image: iwaseyusuke/mininet
+    tty: true
+    privileged: true
+    networks:
+      mynet:
+        ipv4_address: 10.5.0.3
+    environment:
+     - DISPLAY
+    volumes:
+     - /tmp/.X11-unix:/tmp/.X11-unix
+     - /lib/modules:/lib/modules
+     - ./topology.py:/root/topology.py
+
+networks:
+  mynet:
+    driver: bridge
+    ipam:
+     config:
+       - subnet: 10.5.0.0/16
+
+
