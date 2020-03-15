@@ -1,5 +1,5 @@
 # Onos-Mininet Docker-compose
-The following docker-compose.yml file is used to create, run and make interacting Onos docker container and a Mininet one.
+The following docker-compose.yml file is used to create, run and make interacting two docker containers: one for Onos and the other one for Mininet.
 Works on Windows/MacOS/Linux.
 
 ### How does it work?
@@ -13,7 +13,7 @@ Then, if you wish to create a random topology**, run in another term window:
 
 > docker exec -it mininet-c python topology.py
 
-I also provided a START.sh script that asks directily if you want to create a new topology** while starting the containers.
+I also provided a start.sh script that asks directily if you want to create a new topology** while starting the containers.
 (the script refers to gnome terminal: if you don't have it, just replace it with the one that you use)  
 
 ** **This requires that the following app are enabled at the Onos controller (disabled by default): OpenFlow Agent, OpenFlow Base Provider and OpenFlow Provider Suite** 
