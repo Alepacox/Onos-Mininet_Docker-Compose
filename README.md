@@ -4,6 +4,7 @@ Works on Windows/MacOS/Linux.
 
 ### How does it work?
 First you need Docker compose, which relies on Docker engine, and so they both need to be installed.
+
 Move to the cloned repository's folder and run 
 > docker-compose up
 
