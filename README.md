@@ -1,5 +1,5 @@
 # Onos-Mininet Docker-compose
-The following docker-compose.yml file is used to create, run and make interacting Onos Docker container and a Mininet one.
+The following docker-compose.yml file is used to create, run and make interacting Onos docker container and a Mininet one.
 Works on Windows/MacOS/Linux.
 
 ### How does it work?
