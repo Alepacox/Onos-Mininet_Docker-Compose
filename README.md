@@ -3,8 +3,8 @@ The following docker-compose.yml file is used to create, run and make interactin
 Works on Windows/MacOS/Linux.
 
 ### How does it work?
-First you need Docker compose, which relies on Docker engine, and so you need to be them both installed.
-Move to the cloned repo's folder and run 
+First you need Docker compose, which relies on Docker engine, and so they both need to be installed.
+Move to the cloned repository's folder and run 
 > docker-compose up
 
 This will download and run both the containers.
