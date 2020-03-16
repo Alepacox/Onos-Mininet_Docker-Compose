@@ -28,7 +28,7 @@ docker-compose up
 ```
 This will download and run both the containers.
 
-**[Windows section]**
+**[Windows section (Working on issues]**
 --------------------------------------------
 Due to the fact that Onos is not able to run on Windows, I've added some dependencies (like Maven) and scripts that still enables you to recall its main functionalities from within the docker:
 - Recall Onos CLI (```onos```)
