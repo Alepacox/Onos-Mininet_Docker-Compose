@@ -35,6 +35,10 @@ I also provided a start.sh script that asks directily if you want to create a ne
 
 ** **This requires that the following app are enabled at the Onos controller (disabled by default): OpenFlow Agent, OpenFlow Base Provider and OpenFlow Provider Suite** 
 
+Once running, you can access to Onos's shell with the following command (password= karaf):
+```
+onos karaf@localhost
+```
 
 - ONOS Docker image --> [onosproject/onos](https://hub.docker.com/r/onosproject/onos/)
 - Mininet Docker image --> [iwaseyusuke/mininet](https://hub.docker.com/r/iwaseyusuke/mininet/)
