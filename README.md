@@ -30,8 +30,7 @@ This will download and run both the containers.
 
 **[Windows section]**
 --------------------------------------------
-Due to the fact that Onos is not able to run on Windows, I've added some scripts that still enables you to 
-recall its main functionalities within the docker:
+Due to the fact that Onos is not able to run on Windows, I've added some dependencies (like Maven) and scripts that still enables you to recall its main functionalities from within the docker:
 - Recall Onos CLI (```onos```)
 - Recall Onos apps creation script (```onos-create-app```)
 - Recall Onos services to install/manage apps (```onos-app```) 
