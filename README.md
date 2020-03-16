@@ -7,8 +7,7 @@ First you need Docker compose, which relies on Docker engine, and so they both n
 
 Let's firstly procede with the environment setup
 ```
-git clone https://gerrit.onosproject.org/onos
-
+$ git clone https://gerrit.onosproject.org/onos
 $ cd onos
 $ cat << EOF >> ~/.bash_profile
 export ONOS_ROOT="`pwd`"
