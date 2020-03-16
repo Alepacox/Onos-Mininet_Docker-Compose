@@ -1,6 +1,6 @@
 # Onos-Mininet Docker-compose
 The following docker-compose.yml file is used to create, run and make interacting two docker containers: one for ONOS SDN controller, and the other one for Mininet.
-Works on MacOS/Linux (Windows requires the Windows Subsystem for Linux enabled, not yet recommended)
+Works on MacOS/Linux (Windows not fully recommended)
 
 ### How does it work?
 First you need Docker compose, which relies on Docker engine, and so they both need to be installed.
