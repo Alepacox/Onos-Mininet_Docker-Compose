@@ -5,7 +5,10 @@ Works on Windows/MacOS/Linux.
 ### How does it work?
 First you need Docker compose, which relies on Docker engine, and so they both need to be installed.
 
-Move to the cloned repository's folder and run 
+Clone the repository with the following command:
+> git clone https://github.com/Alepacox/Onos-Mininet_Docker-Compose.git
+
+After that, move into the cloned folder and run 
 > docker-compose up
 
 This will download and run both the containers.
