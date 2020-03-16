@@ -37,4 +37,4 @@ I also provided a start.sh script that asks directily if you want to create a ne
 
 
 - ONOS Docker image --> [onosproject/onos](https://hub.docker.com/r/onosproject/onos/)
-- Mininet Docker image -->[iwaseyusuke/mininet](https://hub.docker.com/r/iwaseyusuke/mininet/)
+- Mininet Docker image --> [iwaseyusuke/mininet](https://hub.docker.com/r/iwaseyusuke/mininet/)
