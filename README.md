@@ -5,7 +5,7 @@ Works on Windows/MacOS/Linux (Windows steps will be added as soon as possible)
 ### How does it work?
 First you need Docker compose, which relies on Docker engine, and so they both need to be installed.
 
-Let's firstly procede with the environment setup
+Let's firstly procede with the environment setup [this step is for Linux/MaxOS users only]
 ```
 $ git clone https://gerrit.onosproject.org/onos
 $ cd onos
