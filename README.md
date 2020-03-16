@@ -88,7 +88,9 @@ Once it finished, type _exit_.
  ```
 So basically from Windows you can give direct commands to the container with ```docker exec -it onos-c [command]```
 or you can access to the container's bash with ```docker exec -it onos-c bash``` and call commands directly in there.
-The second option is preferred when you have to build apps. See this example.
+The second option is preferred when you have to build apps. 
+
+See this example --> [How to create/build/install an app on Windows](https://github.com/Alepacox/Onos-Mininet_Docker-Compose/blob/master/%5BSample%5DCreateApp_Windows.md)
 
 [Mininet]
 --------------------------------------------
