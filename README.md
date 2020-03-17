@@ -1,6 +1,6 @@
 # Onos-Mininet Docker-compose
 The following docker-compose.yml file is used to create, run and make interacting two docker containers: one for ONOS SDN controller, and the other one for Mininet.
-Fully working on MacOS/Linux (Windows has still some issues with Mininet, working on that)
+Fully working on MacOS/Linux (Should work on Windows 10 Pro/Enterprise, not tested yet)
 
 ### How does it work?
 First you need Docker compose, which relies on Docker engine, and so they both need to be installed.
@@ -28,7 +28,7 @@ docker-compose up
 ```
 This will download and run both the containers.
 
-**[Windows section (Working on Mininet issues)]**
+**[Windows 10 Home section]**
 --------------------------------------------
 Moved to this [new repository](https://github.com/Alepacox/Onos_on_Windows)
 
@@ -38,23 +38,22 @@ Moved to this [new repository](https://github.com/Alepacox/Onos_on_Windows)
 
  - Access to Onos's shell (password= karaf):
 ```
-[Linux/MacOS]: onos karaf@localhost
-[Windows]: docker exec -it onos-c onos
+[Linux/Windows/MacOS]: onos karaf@localhost
 ```
  - Create a new app:
 ```
-[Linux/MacOS]: onos-create-app app org.foo foo-app 1.0-SNAPSHOT org.foo.app
+[Linux/Windows/MacOS]: onos-create-app app org.foo foo-app 1.0-SNAPSHOT org.foo.app
 ```
  - Install an app:
  ```
- [Linux/MacOS]:onos-app -u karaf -p karaf localhost install! target/foo-app-1.0-SNAPSHOT.oar
+[Linux/Windows/MacOS]:onos-app -u karaf -p karaf localhost install! target/foo-app-1.0-SNAPSHOT.oar
  ```
 
 [Mininet]
 --------------------------------------------
 Then, if you wish to create a random topology**, run in another term window:
 ```
-[MacOS/Linux]: docker exec -it mininet-c python topology.py
+[Linux/Windows/MacOS]: docker exec -it mininet-c python topology.py
 ```
 
 **[Linux/MacOS only]** 
