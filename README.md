@@ -2,6 +2,10 @@
 The following docker-compose.yml file is used to create, run and make interacting two docker containers: one for ONOS SDN controller, and the other one for Mininet.
 Fully working on MacOS/Linux (Should work on Windows 10 Pro/Enterprise, not tested yet)
 
+**[Windows 10 Home section]**
+--------------------------------------------
+Moved to this [new repository](https://github.com/Alepacox/Onos_on_Windows)
+
 ### How does it work?
 First you need Docker compose, which relies on Docker engine, and so they both need to be installed.
 
@@ -27,11 +31,6 @@ After that, move into the cloned folder and run
 docker-compose up
 ```
 This will download and run both the containers.
-
-**[Windows 10 Home section]**
---------------------------------------------
-Moved to this [new repository](https://github.com/Alepacox/Onos_on_Windows)
-
 
 [Recap of commands]
 --------------------------------------------
