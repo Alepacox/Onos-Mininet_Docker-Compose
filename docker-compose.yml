@@ -16,8 +16,6 @@ services:
       - 6653:6653
     volumes:
       - ./onos-apps:/root/onos/onos-apps
-      - ./onos-create-app:/root/onos/bin/onos-create-app
-      - ./WindowsSetup.sh:/root/onos/WindowsSetup.sh
 
   mininet:
     container_name: mininet-c
